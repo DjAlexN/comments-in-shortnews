@@ -35,7 +35,7 @@ echo<<<HTML
 	});
 
 	$(function(){
-		$('.categoryselect').chosen({no_results_text: 'Ничего не найдено'});
+		$('.categoryselect').chosen({no_results_text: 'Nic nie znaleziono'});
 		$('input:checked').parent().addClass("r_selected");
     	$('input[type=radio]').click(function () {
         	$('input:not(:checked)').parent().removeClass("r_selected");
@@ -85,8 +85,8 @@ echo<<<HTML
 	<div class="form-group">
 	  <label class="control-label col-sm-2">Własny CSS:</label>
 	  <div class="col-sm-10 an_dir_radio_block">
-	  	<label>Выкл <input type="radio" name="css_incl" value="off"></label>
-	  	<label>Вкл <input type="radio" name="css_incl" value="on"></label>
+	  	<label>Wyłącz <input type="radio" name="css_incl" value="off"></label>
+	  	<label>Włącz <input type="radio" name="css_incl" value="on"></label>
 	  </div>
 	</div>
 	<div class="form-group">
