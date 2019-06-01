@@ -18,7 +18,7 @@ $css_incl = $row['ci'];
 if($row['enb'] == "off"){
 $enable_label = <<<HTML
 <div class="form-group">
-	<div class="col-md-12"><span class="text-muted text-size-small"> <i class="fa fa-exclamation-triangle position-left"></i>Модуль отключен</span></div>
+	<div class="col-md-12"><span class="text-muted text-size-small"> <i class="fa fa-exclamation-triangle position-left"></i>Moduł jest wyłączony</span></div>
 </div>
 HTML;
 } else $enable_label = "";
